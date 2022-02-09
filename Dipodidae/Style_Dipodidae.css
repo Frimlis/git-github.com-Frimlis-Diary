@@ -1,0 +1,9 @@
+bode {background-color:rgb(230, 146, 44);}
+.one {color:rgb(0, 0, 0);
+     margin:auto;
+     display: flex;
+     justify-content: center;
+    justify-items: center;}
+
+nav {display: flex;
+    justify-content: center;}

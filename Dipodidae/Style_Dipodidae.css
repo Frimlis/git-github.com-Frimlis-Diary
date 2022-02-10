@@ -6,6 +6,7 @@ body {background-color:rgb(230, 146, 44);}
     justify-items: center;}
 .two {color:rgb(0, 0, 0);
     margin:auto;
+    padding: 15px;
     overflow:auto;
     display:block;
     background-color: rgb(197, 121, 29);}

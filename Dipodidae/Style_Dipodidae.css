@@ -1,9 +1,16 @@
-bode {background-color:rgb(230, 146, 44);}
+body {background-color:rgb(230, 146, 44);}
 .one {color:rgb(0, 0, 0);
      margin:auto;
      display: flex;
      justify-content: center;
     justify-items: center;}
+.two {color:rgb(0, 0, 0);
+    margin:auto;
+    overflow:auto;
+    display:block;
+    background-color: rgb(197, 121, 29);}
 
 nav {display: flex;
-    justify-content: center;}
+    justify-content: center;
+    justify-items: center;}
+ul {list-style-position:outside;}

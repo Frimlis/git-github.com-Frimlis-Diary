@@ -15,11 +15,15 @@ nav {display: flex;
     justify-content: center;
     justify-items: center;}
 ul {list-style-position:outside;}
-.content {justify-content: center;}
+.content {float: left;
+    width:40% ;
+    height:auto;
+    margin: 20px;
+    padding: 5px;}
+.mouse {width:100%;}
+div.container {
+    background-color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
 
-.mouse {float: left;
-        width:40% ;
-        height:auto;
-        margin: 20px;
-
-}

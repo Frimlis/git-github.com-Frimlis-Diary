@@ -11,9 +11,12 @@ body {background-color:rgb(230, 146, 44);}
     display:block;
     background-color: rgb(197, 121, 29);}
 
-nav {display: flex;
+nav {display:flex;
     justify-content: center;
-    justify-items: center;}
+    justify-items: center;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0}
 ul {list-style-position:outside;}
 .content {float: left;
     width:40% ;

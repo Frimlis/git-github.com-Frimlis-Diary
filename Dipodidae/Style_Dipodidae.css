@@ -1,13 +1,14 @@
 body {background-color:rgb(230, 146, 44);}
 .one {color:rgb(0, 0, 0);
-     margin:auto;
+     width:auto ;
      display: flex;
      justify-content: center;
-    justify-items: center;}
+    justify-items: center;
+    overflow: hidden;}
 .two {color:rgb(0, 0, 0);
-    margin:auto;
+    width: 70%;
     padding: 15px;
-    overflow:auto;
+    overflow:hidden;
     display:block;
     background-color: rgb(197, 121, 29);}
 
@@ -19,14 +20,16 @@ nav {display:flex;
   top: 0}
 ul {list-style-position:outside;}
 .content {float: left;
-    width:40% ;
-    height:auto;
+    width:200px ;
+    height:200px;
     margin: 20px;
     padding: 5px;}
-.mouse {width:100%;}
+.mouse {width:100%;
+        height: 100%;}
 div.container {
     background-color: white;
     text-align: center;
     padding: 10px 20px;
   }
+div.content:hover {transform: scale(2,2);}
 

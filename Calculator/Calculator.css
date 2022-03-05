@@ -5,8 +5,7 @@ body {background-color: aqua;
     align-items: center;}
 .one {background-color: rgb(0, 132, 255);
     color:rgb(0, 0, 0);
-    height: 80%;
-    margin:30%;
+    padding:30% 10%;
     display: flex;
     justify-content: center;
     justify-items: center;

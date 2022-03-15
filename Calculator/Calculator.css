@@ -12,9 +12,20 @@ body {background-color: aqua;
     align-items: center;}
 .two {background-color: rgb(184, 1, 255);
     text-align: left;
-    height: 80%;
-     width: 80%;
-    padding: 10px;
+    height: 300px;
+     width: 300px;
+    padding: 5px;
     border: 3px solid;
     border-color: white;
     border-radius: 5px;  }
+input {display: block;
+    width: 290px;}
+button {display: block;
+float: left;
+width: 70px;
+height: 70px;
+margin: 2px;
+border-radius: 50%;
+background-color: blanchedalmond;
+color: brown;
+border: none;}

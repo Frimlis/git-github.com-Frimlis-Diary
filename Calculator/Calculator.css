@@ -12,7 +12,7 @@ body {background-color: aqua;
     align-items: center;}
 .two {background-color: rgb(184, 1, 255);
     text-align: left;
-    height: 300px;
+    height: 400px;
      width: 300px;
     padding: 5px;
     border: 3px solid;
@@ -28,4 +28,7 @@ margin: 2px;
 border-radius: 50%;
 background-color: blanchedalmond;
 color: brown;
-border: none;}
+border: none;
+font-size: 32px}
+.special {width: 140px;
+border-radius: 35%;}

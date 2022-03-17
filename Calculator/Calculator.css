@@ -29,6 +29,8 @@ border-radius: 50%;
 background-color: blanchedalmond;
 color: brown;
 border: none;
-font-size: 32px}
+font-size: 32px;
+border: 2px solid #d41b15}
+button:hover {background-color: rgb(202, 152, 77);}
 .special {width: 140px;
 border-radius: 35%;}

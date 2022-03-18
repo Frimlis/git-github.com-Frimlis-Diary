@@ -12,14 +12,22 @@ body {background-color: aqua;
     align-items: center;}
 .two {background-color: rgb(184, 1, 255);
     text-align: left;
-    height: 400px;
+    height: 480px;
      width: 300px;
     padding: 5px;
     border: 3px solid;
     border-color: white;
-    border-radius: 5px;  }
-input {display: block;
-    width: 290px;}
+    border-radius: 5px;}
+.three {display: block;
+        width: 200px;
+    height: 20px;
+border:rgb(184, 1, 255) solid;}
+input {display: inline;
+   width: 100px; 
+float: right;
+}
+label {display: inline;
+float: left;}
 button {display: block;
 float: left;
 width: 70px;

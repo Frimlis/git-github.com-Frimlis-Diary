@@ -27,6 +27,15 @@ input {display: block;
     height: 15px;
     float: right; 
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="radio"]{display: inline;
+    width: 15px; 
+    height: 15px;
+    float: inherit;}
 label {display: block;
     height: 15px;
     float: left;
@@ -45,3 +54,6 @@ border: 2px solid #d41b15}
 button:hover {background-color: rgb(202, 152, 77);}
 .special {width: 140px;
 border-radius: 35%;}
+button:active {
+    background-color: rgb(241, 47, 209);
+  }

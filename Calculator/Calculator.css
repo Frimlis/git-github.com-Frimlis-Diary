@@ -40,6 +40,10 @@ label {display: block;
     height: 15px;
     float: left;
 }
+#operation {display: block;
+    width: 40px; 
+     height: 15px;
+     float: right; }
 button {display: block;
 float: left;
 width: 70px;

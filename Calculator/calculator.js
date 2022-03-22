@@ -7,5 +7,5 @@ document.getElementById('button_+').onclick = function() {displayButton()};
 
 function displayButton() {
   document.getElementById('operation').value = '+';
- 
+ alert('hi');
 }

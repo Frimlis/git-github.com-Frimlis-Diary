@@ -6,6 +6,6 @@ let result = document.getElementById(result);
 document.getElementById('button_+').onclick = function() {displayButton()};
 
 function displayButton() {
- // document.getElementById('operation').value = '+';
- alert("hi");
+  document.getElementById('operation').value = '+';
+ 
 }

@@ -4,7 +4,9 @@
 //let result = document.getElementById(result);
 
 function displayButton() {
-  document.getElementById('operation').value = '+';
+  document.getElementById('operation').value = this.innerHTML;
 }
-
-document.getElementById("button_+").addEventListener("click", displayButton);
+document.getElementById('button_+').addEventListener("click", displayButton);
+document.getElementById('button_-').addEventListener("click", displayButton);
+document.getElementById('button_*').addEventListener("click", displayButton);
+document.getElementById('button_/').addEventListener("click", displayButton);

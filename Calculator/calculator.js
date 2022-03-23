@@ -3,10 +3,8 @@
 //let operation=document.getElementById(operation);
 //let result = document.getElementById(result);
 
-document.getElementById('button_+').addEventListener(onclick, displayButton);
-
 function displayButton() {
   document.getElementById('operation').value = '+';
-  alert("henlo");
 }
-alert("hi");
+
+document.getElementById("button_+").addEventListener("click", displayButton);

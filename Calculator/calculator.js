@@ -15,11 +15,19 @@ function addNumberButton() {
   }
 };
 
-/*function addNumberButton() {
-    let number1_in_string = document.getElementById('number1').value;
-    number1_in_string = number1_in_string + this.innerHTML;
-    document.getElementById('number1').value = number1_in_string;
-};*/
+function equation() {
+  let number1_in_string = parseFloat(document.getElementById('number1').value);
+  let number2_in_string = parseFloat(document.getElementById('number2').value);
+  if (document.getElementById('operation').value == "+") {
+    document.getElementById('result').value = number1_in_string + number2_in_string;
+  } else if (document.getElementById('operation').value == "-") {
+    document.getElementById('result').value = number1_in_string - number2_in_string;
+  } else if (document.getElementById('operation').value == "*") {
+    document.getElementById('result').value = number1_in_string * number2_in_string;
+  } else if (document.getElementById('operation').value == "/") {
+    document.getElementById('result').value = number1_in_string / number2_in_string;
+  }
+}
 
 function displayButton() {
   document.getElementById('operation').value = this.innerHTML;
@@ -36,6 +44,8 @@ document.getElementById('button_*').addEventListener("click", displayButton);
 document.getElementById('button_/').addEventListener("click", displayButton);
 
 document.getElementById('reset').addEventListener("click", AC_reset);
+
+document.getElementById('special').addEventListener("click", equation);
 
 document.getElementById('button_1').addEventListener("click", addNumberButton);
 document.getElementById('button_2').addEventListener("click", addNumberButton);

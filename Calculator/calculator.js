@@ -6,12 +6,13 @@
 function addNumberButton() {
   if (document.getElementById('radio_number1').checked) {
     let number1_in_string = document.getElementById('number1').value;
-    number1_in_string = number1_in_string + this.innerHTML;
-    document.getElementById('number1').value = number1_in_string;
+    let StringValue =  '' + number1_in_string + this.innerHTML;
+    number1_in_string = parseFloat(StringValue);
+    document.getElementById('number1').value = parseFloat(number1_in_string);
   } else {
     let number2_in_string = document.getElementById('number2').value;
     number2_in_string = number2_in_string + this.innerHTML;
-    document.getElementById('number2').value = number2_in_string;
+    document.getElementById('number2').value = parseFloat(number2_in_string);
   }
 };
 
@@ -57,4 +58,5 @@ document.getElementById('button_7').addEventListener("click", addNumberButton);
 document.getElementById('button_8').addEventListener("click", addNumberButton);
 document.getElementById('button_9').addEventListener("click", addNumberButton);
 document.getElementById('button_0').addEventListener("click", addNumberButton);
+document.getElementById('button_.').addEventListener("click", addNumberButton);
 

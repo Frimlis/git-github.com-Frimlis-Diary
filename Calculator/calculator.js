@@ -32,6 +32,8 @@ function equation() {
 
 function displayButton() {
   document.getElementById('operation').value = this.innerHTML;
+  document.getElementById('radio_number1').checked = false;
+  document.getElementById('radio_number2').checked = true;
 };
 function AC_reset() {
   document.getElementById('number1').value = "";

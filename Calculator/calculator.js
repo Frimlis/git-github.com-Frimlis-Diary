@@ -27,6 +27,8 @@ function equation() {
   } else if (document.getElementById('operation').value == "/") {
     document.getElementById('result').value = number1_in_string / number2_in_string;
   }
+  document.getElementById('radio_number1').checked = true;
+  document.getElementById('radio_number2').checked = false;
 }
 
 function displayButton() {

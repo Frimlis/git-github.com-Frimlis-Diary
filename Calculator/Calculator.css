@@ -10,7 +10,7 @@ body {background-color: aqua;
     justify-content: center;
     justify-items: center;
     align-items: center;}
-.two {background-color: rgb(184, 1, 255);
+.two {background-color: rgb(184, 0, 255);
     height: 480px;
     width: 300px;
     padding: 5px;
@@ -20,7 +20,7 @@ body {background-color: aqua;
 .three {display: block;
         width: 295px;
         height: 20px;
-        border:rgb(184, 1, 255) solid;
+        border:rgb(184, 0, 255) solid;
         }
 input {display: block;
    width: 200px; 
@@ -41,7 +41,7 @@ label {display: block;
     float: left;
 }
 #operation {display: block;
-    width: 40px; 
+    width: 20px; 
      height: 15px;
      float: right; }
 button {display: block;

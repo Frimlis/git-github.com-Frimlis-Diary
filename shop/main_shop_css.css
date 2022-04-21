@@ -1,0 +1,45 @@
+body {background-color:rgb(41, 145, 46);}
+#one {color:rgb(0, 0, 0);
+     width:auto ;
+     display: flex;
+     justify-content: center;
+    justify-items: center;
+    overflow: hidden;}
+#two {color:rgb(0, 0, 0);
+    width: 90%;
+    padding: 15px 40px;
+    overflow:hidden;
+    display:block;
+    background-color: rgb(117, 169, 238);}
+
+nav {background-color:rgb(197, 238, 17);
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0}
+ul {list-style-position:outside;}
+.content { padding: 0 6px;
+  float: left;
+  width: 200px;
+height: 200px;
+}
+
+
+
+.mouse {
+  width: 200px;;
+        height: 150px;}
+div.container {
+    background-color: white;
+    text-align: center;
+    padding:0%;
+    margin: 0%;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 30px;
+  }
+div.content:hover {
+  transform: scale(2,2);}

@@ -25,9 +25,6 @@ ul {list-style-position:outside;}
   width: 200px;
 height: 200px;
 }
-
-
-
 .mouse {
   width: 200px;;
         height: 150px;}
@@ -43,3 +40,15 @@ div.container {
   }
 div.content:hover {
   transform: scale(2,2);}
+  button {display: block;
+    float: left;
+    border-radius: 10%;
+    background-color: rgb(225, 236, 68);
+    color: rgb(3, 8, 8);
+    border: solid;
+    font-size: 16px;
+    border: 2px solid #d41b15}
+    
+    button:active {
+        background-color: rgb(250, 234, 210);
+      }

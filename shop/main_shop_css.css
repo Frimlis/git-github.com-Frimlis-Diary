@@ -45,7 +45,9 @@ footer {
   position: fixed;
   bottom: 0;
 }
-    
+button {
+  background-color: bisque;
+}   
     button:active {
         background-color: rgb(250, 234, 210);
       }

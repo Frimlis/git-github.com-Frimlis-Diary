@@ -37,6 +37,12 @@ nav {background-color:rgb(197, 238, 17);
     position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;}
+#im {height: 15px;
+width: 15px;
+margin-right: 5px;}
+#hm {height: 40px;
+  width: 70px;
+}
 footer {
   background-color: aliceblue;
   width: 100%;

@@ -1,0 +1,60 @@
+body {background-color:rgb(41, 145, 46);}
+#one {background-color: rgb(0, 132, 255);
+  color:rgb(0, 0, 0);
+  height: 90vh;
+  margin-bottom: 10vh;
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  justify-items: center;}
+#two {background-color: rgb(184, 1, 255);
+  text-align: left;
+   width: 60%;
+  padding: 10px;
+  border: 3px solid;
+  border-color: white; }
+.fodder {background-color: rgb(158, 217, 240);
+    float:left;
+     width: 30%;
+     height: 30%;
+     margin: 5px;
+    padding: 5px;
+    border: 3px solid;
+    border-color: white;}
+    .wrap {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+    }
+    .wrap h1 {
+      align-self:flex-end;
+    }
+nav {background-color:rgb(197, 238, 17);
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;}
+#im {height: 15px;
+width: 15px;
+margin-right: 5px;}
+#hm {height: 40px;
+  width: 70px;
+}
+footer {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+button {
+  background-color: bisque;
+}   
+    button:active {
+        background-color: rgb(250, 234, 210);
+      }

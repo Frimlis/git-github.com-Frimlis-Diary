@@ -16,13 +16,14 @@ body {background-color:rgb(41, 145, 46);}
   border-color: white;
 display: flex; 
 flex-flow: column nowrap;
-flex: 1 200px;}
+}
 .fodder {background-color: rgb(158, 217, 240);
      margin: 5px;
     padding: 5px;
-    height: 30%;
+    flex: 1 1 auto;
     border: 3px solid;
-    border-color: white;}
+    border-color: white;
+  }
     .wrap {
       height: 100%;
       width: 100%;
